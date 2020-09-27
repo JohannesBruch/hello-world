@@ -1,5 +1,5 @@
 # kfold_validation
-This is a file that can be run on a linux server with PBS to execute 10-fold validation of a CNN using a tfrecord that you build with the functions in the web_pipeline repository. It needs the following packages: tensorflow, yaml, os.
+This is a file that can be run on a linux server with PBS to execute 10-fold validation of a CNN using a tfrecord that you build with the functions in the web_pipeline repository. It needs the following packages: tensorflow, yaml, os. It requires a python 3.6 version in a python environment of conda.
 
 # parallel_job
 This is a PBS script that will enable you to run the folds of the 10-fold validation in parallel.
